@@ -2,19 +2,19 @@
 
 Easy
 
-1. [704. Binary Search](###704.-binary-search)
+1. [704. Binary Search](#704-binary-search)
 
 Medium
 
-2. [74. Search a 2D Matrix](###74.-Search-a-2D-Matrix)
-3. [875. Koko Eating Bananas](###875.-Koko-Eating-Bananas)
-4. [153. Find Minimum in Rotated Sorted Array](###153.-Find-Minimum-in-Rotated-Sorted-Array)
-5. [33. Search in Rotated Sorted Array](###33.-Search-in-Rotated-Sorted-Array)
-6. [981. Time Based Key-Value Store](###981.-Time-Based-Key-Value-Store)
+2. [74. Search a 2D Matrix](#74-Search-a-2D-Matrix)
+3. [875. Koko Eating Bananas](#875-Koko-Eating-Bananas)
+4. [153. Find Minimum in Rotated Sorted Array](#153-Find-Minimum-in-Rotated-Sorted-Array)
+5. [33. Search in Rotated Sorted Array](#33-Search-in-Rotated-Sorted-Array)
+6. [981. Time Based Key-Value Store](#981-Time-Based-Key-Value-Store)
 
 Hard
 
-7. [4. Median of Two Sorted Arrays](###4.-Median-of-Two-Sorted-Arrays)
+7. [4. Median of Two Sorted Arrays](#4-Median-of-Two-Sorted-Arrays)
 
 ## Easy
 
