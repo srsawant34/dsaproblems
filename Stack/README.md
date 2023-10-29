@@ -1,5 +1,21 @@
 # **Stack**
 
+Easy
+
+1. [20. Valid Parentheses](#20-valid-parentheses)
+
+Medium
+
+2. [155. Min Stack](#155-min-stack)
+3. [150. Evaluate Reverse Polish Notation](#150-evaluate-reverse-polish-notation)
+4. [22. Generate Parentheses](#22-generate-parentheses)
+5. [739. Daily Temperatures](#739-daily-temperatures)
+6. [853. Car Fleet](#853-car-fleet)
+
+Hard
+
+7. [84. Largest Rectangle in Histogram](#84-largest-rectangle-in-histogram)
+
 ## **Easy**
 
 ### **20. Valid Parentheses**
