@@ -7,6 +7,24 @@ The Two Pointers pattern involves using two pointers to traverse an array or lis
 - The Two Pointers pattern narrows attention to a specific range of elements indicated by the positions of two pointers.
 - Common tasks in this pattern may include `comparing` or `swapping` values at the two pointers. Each pointer may also traverse a separate array or string.
 
+## Problems
+
+Easy
+1. [125. Valid Palindrome](#125-Valid-Palindrome)
+2. [680. Valid Palindrome II](#680-Valid-Palindrome-II)
+
+Medium
+
+3. [75. Sort Colors](#75-sort-colors)
+4. [19. Remove Nth Node From End of List](#19-remove-nth-node-from-end-of-list)
+5. [167. Two Sum II - Input Array Is Sorted](#167-two-sum-ii---input-array-is-sorted)
+6. [15. 3Sum](#15-3sum)
+7. [11. Container With Most Water](#11-container-with-most-water)
+
+Hard
+
+8. [42. Trapping Rain Water](#42-trapping-rain-water)
+
 ## **Easy**
 
 ### **125. Valid Palindrome**
@@ -25,7 +43,96 @@ Output: true
 Explanation: "amanaplanacanalpanama" is a palindrome.
 ```
 
+### **680. Valid Palindrome II**
+
+[LeetCode](https://leetcode.com/problems/valid-palindrome-ii/) | [file](680.valid_palindrome_II.py)
+
+Given a string `s`, return `true` if the `s` can be palindrome after deleting at most one character from it.
+
+Example 1:
+```
+Input: s = "aba"
+Output: true
+```
+Example 2:
+```
+Input: s = "abca"
+Output: true
+```
+Explanation: You could delete the character 'c'.
+
+Example 3:
+```
+Input: s = "abc"
+Output: false
+```
+
+Constraints:
+
+1. `1 <= s.length <= 105`
+2. `s` consists of lowercase English letters.
+
 ## **Medium**
+
+### **75. Sort Colors**
+
+[LeetCode](https://leetcode.com/problems/sort-colors/) | [file](75.sort_colors.py)
+
+Given an array `nums` with `n`` objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+
+We will use the integers `0`, `1`, and `2` to represent the color red, white, and blue, respectively.
+
+You must solve this problem without using the library's sort function.
+
+Example 1:
+```
+Input: nums = [2,0,2,1,1,0]
+Output: [0,0,1,1,2,2]
+```
+
+Example 2:
+```
+Input: nums = [2,0,1]
+Output: [0,1,2]
+```
+
+Constraints:
+1. `n == nums.length`
+2. `1 <= n <= 300`
+3. `nums[i]` is either `0`, `1`, or `2`.
+
+### 19. Remove Nth Node From End of List
+
+[Leetcode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [file](19.remove_nth_node_end.py)
+
+Given the `head` of a linked list, remove the `nth` node from the end of the list and return its head.
+
+ 
+
+Example 1:
+
+![example1](https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg)
+```
+Input: head = [1,2,3,4,5], n = 2
+Output: [1,2,3,5]
+```
+Example 2:
+```
+Input: head = [1], n = 1
+Output: []
+```
+Example 3:
+```
+Input: head = [1,2], n = 1
+Output: [1]
+``` 
+
+Constraints:
+
+- The number of nodes in the list is `sz`.
+- `1 <= sz <= 30`
+- `0 <= Node.val <= 100`
+- `1 <= n <= sz`
 
 ### **167. Two Sum II - Input Array Is Sorted**
 

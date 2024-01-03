@@ -9,16 +9,15 @@ Easy
 Medium
 
 4. [143. Reorder List](#143-reorder-list)
-5. [19. Remove Nth Node From End of List](#19-remove-nth-node-from-end-of-list)
-6. [138. Copy List with Random Pointer](#138-copy-list-with-random-pointer)
-7. [2. Add Two Numbers](#2-add-two-numbers)
-8. [287. Find the Duplicate Number](#287-find-the-duplicate-number)
-9. [146. LRU Cache](#146-lru-cache)
+5. [138. Copy List with Random Pointer](#138-copy-list-with-random-pointer)
+6. [2. Add Two Numbers](#2-add-two-numbers)
+7. [287. Find the Duplicate Number](#287-find-the-duplicate-number)
+8. [146. LRU Cache](#146-lru-cache)
 
 Hard
 
-10. [23. Merge k Sorted Lists](#23-merge-k-sorted-lists)
-11. [25. Reverse Nodes in k-Group](#25-reverse-nodes-in-k-group)
+9. [23. Merge k Sorted Lists](#23-merge-k-sorted-lists)
+10. [25. Reverse Nodes in k-Group](#25-reverse-nodes-in-k-group)
 
 ## **Easy**
 
@@ -132,6 +131,8 @@ Constraints:
 - `-105 <= Node.val <= 105`
 - `pos` is `-1` or a valid index in the linked-list.
 
+## **Medium**
+
 ### 143. Reorder List
 
 [Leetcode](https://leetcode.com/problems/reorder-list/) | [file](143.reorder_list.py)
@@ -166,39 +167,6 @@ Constraints:
 
 - The number of nodes in the list is in the range `[1, 5 * 104]`.
 - `1 <= Node.val <= 1000`
-
-### 19. Remove Nth Node From End of List
-
-[Leetcode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [file](19.remove_nth_node_end.py)
-
-Given the `head` of a linked list, remove the `nth` node from the end of the list and return its head.
-
- 
-
-Example 1:
-
-![example1](https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg)
-```
-Input: head = [1,2,3,4,5], n = 2
-Output: [1,2,3,5]
-```
-Example 2:
-```
-Input: head = [1], n = 1
-Output: []
-```
-Example 3:
-```
-Input: head = [1,2], n = 1
-Output: [1]
-``` 
-
-Constraints:
-
-- The number of nodes in the list is `sz`.
-- `1 <= sz <= 30`
-- `0 <= Node.val <= 100`
-- `1 <= n <= sz`
 
 ### 138. Copy List with Random Pointer
 
