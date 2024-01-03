@@ -2,10 +2,10 @@
 
 The Two Pointers pattern involves using two pointers to traverse an array or list until specific conditions are met. This approach enables simultaneous tracking of values at two different indexes during a single iteration.
 
-## <span style="color:lightgreen;">Pattern</span>
-- Input data is processed \textcolor{blue}{linearly}, such as in an array, linked list, or string of characters.
+## Pattern
+- Input data is processed `linearly`, such as in an array, linked list, or string of characters.
 - The Two Pointers pattern narrows attention to a specific range of elements indicated by the positions of two pointers.
-- Common tasks in this pattern may include <span style="color:lightblue;">comparing</span> or <span style="color:lightblue;">swapping</span> values at the two pointers. Each pointer may also traverse a separate array or string.
+- Common tasks in this pattern may include `comparing` or `swapping` values at the two pointers. Each pointer may also traverse a separate array or string.
 
 ## **Easy**
 
